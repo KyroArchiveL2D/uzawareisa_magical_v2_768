@@ -1,0 +1,150 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0326_home.skel",
+    "atlas": "CH0326_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 750,
+    "y": 800,
+    "scale": 0.45,
+    "angle": 0,
+    "bgmVolume": 0.1,
+    "talkVolume": 0.5,
+    "showTouch": false,
+    "panelDisplay": false,
+    "showTalkDialog": true,
+    "textX": 880,
+    "textY": 460,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "Bahasa Indonesia"
+  },
+  "EventInfos": [
+    {
+      "BoneName": "Spine_03",
+      "Width": 1500,
+      "Height": 800,
+      "Animations": [
+        "Talk_01_M",
+        "Talk_02_M",
+        "Talk_03_M",
+        "Talk_04_M",
+        "Talk_05_M"
+      ],
+      "AnimationIndex": 10,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": true
+    },
+    {
+      "BoneName": "fronthair_02",
+      "Width": 800,
+      "Height": 500,
+      "Animations": [
+        "Pat_01_M"
+      ],
+      "AnimationIndex": 20,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": false
+    },
+    {
+      "BoneName": "mouth",
+      "Width": 300,
+      "Height": 300,
+      "Animations": [
+        "PinchEnd_01_M"
+      ],
+      "AnimationIndex": 15,
+      "TextIndex": 0,
+      "ClickType": "click",
+      "EmptyAnimation": true
+    }
+  ],
+  "AnimationsTexts": {
+    "中文": {
+      "CH0326_MemorialLobby_1_1": "安全！",
+      "CH0326_MemorialLobby_1_2": "呵呵……风筝的和平由我来守护！",
+      "CH0326_MemorialLobby_1_3": "眼看就要掉进水里！幸好被我一把抓住了！",
+      "CH0326_MemorialLobby_2_1": "只要是为了大家，自警团绝不会犹豫！",
+      "CH0326_MemorialLobby_2_2": "哪怕是火海、哪怕是水中！我都敢跳进去给你看！",
+      "CH0326_MemorialLobby_2_3": "嘿嘿嘿……！",
+      "CH0326_MemorialLobby_3_1": "英雄服装这种东西——",
+      "CH0326_MemorialLobby_3_2": "只有在以英雄身份工作时才会闪闪发光！",
+      "CH0326_MemorialLobby_3_3": "而且这件可以机洗，完全没问题！",
+      "CH0326_MemorialLobby_4_1": "还有……是老师教我的。",
+      "CH0326_MemorialLobby_4_2": "只有毫不迟疑的人——才能守护大家！诶嘿嘿！",
+      "CH0326_MemorialLobby_5_1": "嘿、嘿欸……。",
+      "CH0326_MemorialLobby_5_2": "哈啾！！",
+      "CH0326_MemorialLobby_5_3": "呜呜……。"
+    },
+    "日本語": {
+      "CH0326_MemorialLobby_1_1": "セーフッ！",
+      "CH0326_MemorialLobby_1_2": "ふふ……凧の平和は守られました！",
+      "CH0326_MemorialLobby_1_3": "水に落ちる寸前に！こうやって捕まえられたのですから！",
+      "CH0326_MemorialLobby_2_1": "みんなのためでしたら、自警団は迷いません！",
+      "CH0326_MemorialLobby_2_2": "火の中だろうと、水の中だろうと！どこだって飛び込んでみせますから",
+      "CH0326_MemorialLobby_2_3": "にへへ……っ！",
+      "CH0326_MemorialLobby_3_1": "ヒーローの衣装というのは――",
+      "CH0326_MemorialLobby_3_2": "ヒーローとしての仕事をするときにこそ輝くものっ！",
+      "CH0326_MemorialLobby_3_3": "あと、これは洗濯機オッケーなので大丈夫です！",
+      "CH0326_MemorialLobby_4_1": "それに……先生に、教わりましたから。",
+      "CH0326_MemorialLobby_4_2": "迷わない者こそ――みんなを守ることができる、と！えへへっ！",
+      "CH0326_MemorialLobby_5_1": "へへ、え、へえっ……。",
+      "CH0326_MemorialLobby_5_2": "へくしょん！！",
+      "CH0326_MemorialLobby_5_3": "ううぅ……。"
+    },
+    "English": {
+      "CH0326_MemorialLobby_1_1": "Safe!",
+      "CH0326_MemorialLobby_1_2": "Heh-heh... peace for the kite has been secured!",
+      "CH0326_MemorialLobby_1_3": "It was about to hit the water—until I grabbed it like this!",
+      "CH0326_MemorialLobby_2_1": "If it's for everyone, the vigilante squad never hesitates!",
+      "CH0326_MemorialLobby_2_2": "Into fire or into water—I'll jump anywhere!",
+      "CH0326_MemorialLobby_2_3": "N-heh-heh...!",
+      "CH0326_MemorialLobby_3_1": "A hero's costume—",
+      "CH0326_MemorialLobby_3_2": "only shines when you're doing hero work!",
+      "CH0326_MemorialLobby_3_3": "Plus, this one is machine-washable, so no worries!",
+      "CH0326_MemorialLobby_4_1": "And... you taught me, Sensei.",
+      "CH0326_MemorialLobby_4_2": "Only those who never waver can protect everyone! E-heh-heh!",
+      "CH0326_MemorialLobby_5_1": "Heh, eh, hee...",
+      "CH0326_MemorialLobby_5_2": "Achoo!!",
+      "CH0326_MemorialLobby_5_3": "Uuu..."
+    },
+    "Tiếng Việt": {
+      "CH0326_MemorialLobby_1_1": "An toàn rồi!",
+      "CH0326_MemorialLobby_1_2": "Ìhihí.... Con diều hiện tại đã được yên ổn!",
+      "CH0326_MemorialLobby_1_3": "Ngay trước khi nó rơi xuống nước! Thật may là em kịp bắt được nó!",
+      "CH0326_MemorialLobby_2_1": "Vì sự bình yên của mọi người, đội cận vệ sẽ không bao giờ ngần ngại!",
+      "CH0326_MemorialLobby_2_2": "Kể cả biển lửa bao vây, dòng nước lũ cuồn cuộn! dù đó là gì đi nữa, em sẽ luôn vượt qua nó!",
+      "CH0326_MemorialLobby_2_3": "Nihehe...!",
+      "CH0326_MemorialLobby_3_1": "Về bộ trang phục thì....",
+      "CH0326_MemorialLobby_3_2": "Trang phục anh hùng khi làm tròn bổn phận của mình... nó đã thật sự tỏa sáng!",
+      "CH0326_MemorialLobby_3_3": "Hơn nũa, nó có thể giặt máy rất Okela, nên là không sao đâu!",
+      "CH0326_MemorialLobby_4_1": "Và hơn nữa... Sensei đã chỉ dạy em điều đó.",
+      "CH0326_MemorialLobby_4_2": "Những người không hề ngần ngại là những người có thể bảo vệ người khác!ehehe~~",
+      "CH0326_MemorialLobby_5_1": "Ehehe.....e....hẹ..hẹ.",
+      "CH0326_MemorialLobby_5_2": "Khắc-xùù!!!",
+      "CH0326_MemorialLobby_5_3": "Uuu..."
+    },
+    "Bahasa Indonesia": {
+      "CH0326_MemorialLobby_1_1": "Selamaat!",
+      "CH0326_MemorialLobby_1_2": "Hehe... kedamaian layangannya udah aku jagain!",
+      "CH0326_MemorialLobby_1_3": "Dikit lagi nyemplung ke air! Untung aja langsung aku tangkep kayak gini!",
+      "CH0326_MemorialLobby_2_1": "Kalau demi semuanya, pasukan jaga bakal sat-set, nggak pake ragu!",
+      "CH0326_MemorialLobby_2_2": "Mau nerobos api atau nyebur ke air! Ke mana aja bakal aku terjang, liat aja!",
+      "CH0326_MemorialLobby_2_3": "Nyehehe...!",
+      "CH0326_MemorialLobby_3_1": "Yang namanya kostum pahlawan itu—",
+      "CH0326_MemorialLobby_3_2": "Justru bakal keliatan keren pas lagi dipake buat aksi pahlawan!",
+      "CH0326_MemorialLobby_3_3": "Oh iya, ini juga aman dicuci pake mesin cuci, jadi santai aja!",
+      "CH0326_MemorialLobby_4_1": "Lagian... 'kan kamu yang ngajarin aku, Sensei.",
+      "CH0326_MemorialLobby_4_2": "Cuma orang yang nggak ragu-ragu yang bisa— ngelindungin semuanya! Ehehe!",
+      "CH0326_MemorialLobby_5_1": "Hehe, eh, heeh...",
+      "CH0326_MemorialLobby_5_2": "Hachii!!",
+      "CH0326_MemorialLobby_5_3": "Huuu..."
+    }
+  }
+}
